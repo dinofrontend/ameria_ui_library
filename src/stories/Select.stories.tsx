@@ -537,7 +537,7 @@ ProfileDropdown.args = {
       icon: <IconQuestion size={'small'} className={'mr-8'} />,
       text: 'Հաճախ տրվող հարցեր',
       url: '#s',
-      rightInfoProps: <Badge text={'5'} type={'tertiary'} className={'ml-12'} />
+      rightInfoProps: <Badge text={'5'} type={'green'} className={'ml-12'} />
     },
     {
       icon: <IconChatMultiple size={'small'} className={'mr-8'} />,

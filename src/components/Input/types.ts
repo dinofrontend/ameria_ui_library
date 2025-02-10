@@ -58,5 +58,5 @@ export interface InputPasswordsProps extends InputCustomProps {
   dataId?: string
   hasError?: boolean
   tooltipAddons?: TTooltipProps
-  capsLockText?:string
+  capsLockText?: string
 }

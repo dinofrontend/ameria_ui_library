@@ -39,3 +39,17 @@ export interface ISVGIconProps {
 }
 
 export type TTextSize = 'xxsmall' | 'xsmall' | 'small' | 'standard' | 'medium' | 'large'
+
+export type TTextTypes =
+  | 'primary'
+  | 'secondary'
+  | 'tertiary'
+  | 'disabled'
+  | 'inverse'
+  | 'selected'
+  | 'brand'
+  | 'danger'
+  | 'warning'
+  | 'success'
+  | 'information'
+  | 'discovery'

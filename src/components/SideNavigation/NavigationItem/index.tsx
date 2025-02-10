@@ -18,7 +18,7 @@ export const NavigationItem = (props: TNavigationLinkPropTypes): ReactElement =>
     showAction = false,
     actionElm,
     active = false,
-    badgeType = 'tertiary',
+    badgeType = 'green',
     badgeContent,
     expandIconProps = {
       Component: IconChevronDown,

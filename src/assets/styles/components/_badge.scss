@@ -3,8 +3,9 @@
 .badge {
   $this: &;
 
-  --ds-badge-primary-bg: var(--pink-500);
+  --ds-badge-primary-bg: var(--red-500);
   --ds-badge-secondary-bg: var(--grey-50);
+  --ds-badge-secondary-bg-dark: var(--grey-100);
   --ds-badge-tertiary-bg: var(--green-500);
 
   --ds-badge-border-radius: var(--ds-border-radius-4xl);
@@ -17,15 +18,19 @@
   @include mixin.align-items(center);
   border-radius: var(--ds-badge-border-radius);
 
-  &--primary {
+  &--red {
     background-color: var(--ds-badge-primary-bg);
   }
 
-  &--secondary {
+  &--grey {
     background-color: var(--ds-badge-secondary-bg);
   }
 
-  &--tertiary {
+  &--greyDark {
+    background-color: var(--ds-badge-secondary-bg-dark);
+  }
+
+  &--green {
     background-color: var(--ds-badge-tertiary-bg);
   }
 
@@ -34,7 +39,6 @@
 
     #{$this}__inner {
       line-height: 0.858;
-      padding: var(--ds-badge-inner-padding-lg);
     }
   }
 
@@ -43,7 +47,6 @@
 
     #{$this}__inner {
       line-height: 1;
-      padding: var(--ds-badge-inner-padding-sm);
     }
   }
 }

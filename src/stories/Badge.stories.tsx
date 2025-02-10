@@ -8,7 +8,7 @@ export default {
   component: _Badge,
   argTypes: {
     type: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['red', 'grey', 'greyDark', 'green', 'transparent'],
       control: { type: 'radio' }
     },
     size: {
@@ -24,6 +24,5 @@ export const Badge = Template.bind({})
 
 Badge.args = {
   text: '999+',
-  type: 'primary',
   size: 'large'
 }

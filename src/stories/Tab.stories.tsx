@@ -53,7 +53,7 @@ Tab.args = {
       },
       badgeProps: {
         text: '9',
-        type: 'secondary'
+        type: 'grey'
       }
     },
     {

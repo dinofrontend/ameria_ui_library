@@ -1,6 +1,6 @@
 export interface TBadgeProps extends IFormCompProps {
   text?: number | string
-  type?: 'primary' | 'secondary' | 'tertiary'
+  type?: 'red' | 'grey' | 'greyDark' | 'green' | 'transparent'
   size?: 'large' | 'small'
   className?: string
 }

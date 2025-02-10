@@ -105,7 +105,7 @@ export const InputPassword = React.forwardRef<HTMLInputElement, InputPasswordsPr
           combinedRef.current?.setSelectionRange(length, length)
         })
       }
-    }, [showPassword,password])
+    }, [showPassword, password])
 
     return (
       <div className={'input-password'}>
